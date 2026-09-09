@@ -1,0 +1,56 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+font-family: 'open Sans', sans-serif ;
+background-color: rgb(0, 217, 255);
+color: darkslategrey;
+}
+
+header{
+    background-color: rgb(128, 0, 107);
+    color: azure;
+    text-align: center;
+    padding: 12px;
+}
+
+header h1{
+    margin-bottom: 12px;
+}
+
+.container{
+ width: 90%;
+ max-width: 900px;
+ margin: 30px auto;
+
+}
+
+
+.foto_perfil{
+    border: 3px double crimson;
+    height: 500px;
+    box-shadow: 10px -5px 10px cornflowerblue;
+}
+
+.card{
+ background-color: aqua;
+ border: 1px saddlebrown;
+ padding: 20px;
+ box-shadow: 5px 7px 50px #955;
+
+}
+
+.card h2{
+    margin-bottom: 12px;
+    color: crimson;
+}
+
+.sobre{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ gap: 20px;
+}
