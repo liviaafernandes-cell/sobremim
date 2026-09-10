@@ -40,7 +40,8 @@ header h1{
  border: 1px saddlebrown;
  padding: 20px;
  box-shadow: 5px 7px 50px #955;
-
+ margin-bottom: 20px;
+ border-radius: 14px;
 }
 
 .card h2{
@@ -53,4 +54,58 @@ header h1{
  flex-direction: row;
  align-items: center;
  gap: 20px;
+}
+
+.botao{
+    display: inline-block;
+    margin-top: 10px;
+    background-color: rgba(126, 42, 165, 0.699);
+    padding: 8px;
+    color: azure;
+    border-radius: 10px;
+box-shadow: 4px 4px 15px #215212;
+
+}
+
+ul, ol{
+    margin-left: 20px;
+}
+
+li{
+    margin-bottom: 8px;
+}
+
+form{
+    display: flex;
+    flex-direction:  column;
+}
+
+label{
+    margin-top: 20px;
+}
+
+input, textarea{
+    width: 400px;
+    padding: 9px;
+    border-radius: 9px;
+
+}
+
+.botao_pai{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.botao_formulário{
+margin-top: 5px ;
+margin-left: 10px ;
+width: 400px;
+padding: 9px;
+background-color: rgb(131, 85, 153);
+color: black;
+border-radius: 8px;
+box-shadow: 4px 4px 10px #122852;
+
 }
